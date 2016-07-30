@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\hurricane">
+      <UniqueIdentifier>{ffe24b97-de3b-47ca-ab42-2f816437398e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hurricane\base">
+      <UniqueIdentifier>{199d07a0-bb3d-4b59-8e61-5de4b9d41fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hurricane\message">
+      <UniqueIdentifier>{09005c13-5d7c-484b-b00d-a501b5f2c1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hurricane\util">
+      <UniqueIdentifier>{1151322a-3d97-4ecb-96d3-c44b078d74cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hurricane">
+      <UniqueIdentifier>{fb611766-ef59-4ff8-ae64-4ea489cfaeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hurricane\base">
+      <UniqueIdentifier>{98820893-8530-45fa-b3bd-91d692c01c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hurricane\message">
+      <UniqueIdentifier>{68c7eba0-de2e-49bb-a6d2-9a14028b8b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hurricane\util">
+      <UniqueIdentifier>{ee45ab63-07e8-4c35-b620-d5952a27925b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hurricane\service">
+      <UniqueIdentifier>{0299d7fa-d962-420a-ab54-f134589d4ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hurricane\service">
+      <UniqueIdentifier>{3428b634-33f6-47d4-9e98-96b7f42f1cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hurricane\tool">
+      <UniqueIdentifier>{52b08f0d-35e5-48a0-9785-b9cd64c569b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\hurricane\base\DataPackage.cpp">
+      <Filter>源文件\hurricane\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\util\NetConnector.cpp">
+      <Filter>源文件\hurricane\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\util\NetListener.cpp">
+      <Filter>源文件\hurricane\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\util\StringUtil.cpp">
+      <Filter>源文件\hurricane\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\util\Socket.cpp">
+      <Filter>源文件\hurricane\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\message\Command.cpp">
+      <Filter>源文件\hurricane\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\message\CommandClient.cpp">
+      <Filter>源文件\hurricane\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\message\CommandServer.cpp">
+      <Filter>源文件\hurricane\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\service\Nimbus.cpp">
+      <Filter>源文件\hurricane\service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\service\Supervisor.cpp">
+      <Filter>源文件\hurricane\service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\tool\StartNimbus.cpp">
+      <Filter>源文件\hurricane\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\util\Configuration.cpp">
+      <Filter>源文件\hurricane\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hurricane\service\SupervisorContext.cpp">
+      <Filter>源文件\hurricane\service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\hurricane\base\ByteArray.h">
+      <Filter>头文件\hurricane\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\base\DataPackage.h">
+      <Filter>头文件\hurricane\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\base\NetAddress.h">
+      <Filter>头文件\hurricane\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\base\Values.h">
+      <Filter>头文件\hurricane\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\base\Variant.h">
+      <Filter>头文件\hurricane\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\message\Message.h">
+      <Filter>头文件\hurricane\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\util\NetConnector.h">
+      <Filter>头文件\hurricane\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\util\NetListener.h">
+      <Filter>头文件\hurricane\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\util\Socket.h">
+      <Filter>头文件\hurricane\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\util\StringUtil.h">
+      <Filter>头文件\hurricane\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\message\Command.h">
+      <Filter>头文件\hurricane\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\message\CommandClient.h">
+      <Filter>头文件\hurricane\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\message\CommandServer.h">
+      <Filter>头文件\hurricane\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\service\Nimbus.h">
+      <Filter>头文件\hurricane\service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\service\Supervisor.h">
+      <Filter>头文件\hurricane\service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hurricane\util\Configuration.h">
+      <Filter>头文件\hurricane\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
